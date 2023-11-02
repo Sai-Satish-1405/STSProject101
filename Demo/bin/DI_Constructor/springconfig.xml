@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="https://www.springframework.org/schema/beans"
+
+        xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+
+        xsi:schemaLocation="https://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  
+  
+  
+  <bean id="address" class="DI_Constructor.EmployeeAddress">
+	  
+	  <constructor-arg name="city" value="banglore">  </constructor-arg>
+  
+  </bean>
+  
+  
+  
+   <bean id="employeebean" class="DI_Constructor.EmployeeBean">
+	  
+	   <constructor-arg name="add" ref="address">  </constructor-arg>
+	  <constructor-arg name="name" value="Sai">  </constructor-arg>
+	  
+	  
+  
+  </bean>
+  
+        
+ </beans>       
