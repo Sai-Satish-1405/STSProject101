@@ -10,4 +10,5 @@ class LombokApplicationTests {
 	void contextLoads() {
 	}
 
+	
 }
