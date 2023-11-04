@@ -8,7 +8,5 @@ class LombokApplicationTests {
 
 	@Test
 	void contextLoads() {
-	}
-
-	
+	}	
 }
