@@ -12,4 +12,5 @@ public class Address {
 	String street,area,landmark;
 	long pinCode;
 	
+	
 }
