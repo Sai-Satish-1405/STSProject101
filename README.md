@@ -1,3 +1,3 @@
 # STSProject101
 
-MVN build 2
+MVN build 20
