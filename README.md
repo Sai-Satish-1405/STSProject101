@@ -1,3 +1,3 @@
 # STSProject101
 
-MVN build  1 33
+MVN build
