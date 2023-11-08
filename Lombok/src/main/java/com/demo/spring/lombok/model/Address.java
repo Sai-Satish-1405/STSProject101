@@ -11,6 +11,5 @@ public class Address {
 	BigDecimal dNum;
 	String street,area,landmark;
 	long pinCode;
-	
-	
+
 }
